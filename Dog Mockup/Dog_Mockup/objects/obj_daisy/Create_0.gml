@@ -1,4 +1,4 @@
-make_mover(0, 0, 1, 1, 5, 0.5, 5, 10, 0.5, false);
+make_mover(0, 0, 1, 0.5, 2, 0.25, 4, 10, 0.25, false);
 
 enum daisy {
 	idle,

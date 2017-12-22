@@ -22,7 +22,7 @@ if input.d and grounded {
 	ACTION = daisy.duck;
 }
 
-if input.action_one_pressed and grounded and ACTION {
+if input.action_one_pressed and grounded and ACTION != daisy.duck {
 	vy = -jh;
 }
 	
